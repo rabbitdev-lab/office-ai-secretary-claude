@@ -1,0 +1,26 @@
+{
+  "skill_name": "meeting-summary",
+  "evals": [
+    {
+      "id": 1,
+      "name": "product-release-meeting",
+      "prompt": "이 회의록 좀 정리해줘. 출시 일정 관련 회의야.",
+      "expected_output": "결정사항(5/15 출시 확정 등), 액션 아이템(결제 버그 수정/매뉴얼 정리/경쟁사 가격 분석), 다음 회의 안건(모니터링 대시보드/프로 플랜 가격) 추출. 담당자와 기한 명확히.",
+      "files": ["sample_1_product_release.txt"]
+    },
+    {
+      "id": 2,
+      "name": "unclear-stt-data-discussion",
+      "prompt": "이 회의록 요약해줘",
+      "expected_output": "메타 정보가 부족하므로 미상으로 표기. 결정사항 거의 없음(이탈률 분석 후 다음 회의에서 결정). 액션 아이템(깔때기 데이터 요청, 디자인팀 협의). 다음 회의 안건 명확히.",
+      "files": ["sample_2_unclear_stt.txt"]
+    },
+    {
+      "id": 3,
+      "name": "daily-standup-no-decisions",
+      "prompt": "이거 데일리 스탠드업이야. 깔끔하게 정리해줘.",
+      "expected_output": "정보 공유 위주이므로 결정사항은 '해당 없음' 또는 최소화. 액션 아이템(데모 환경 셋업, 디자인 피드백 전달, 마이그레이션 디버깅) 추출. 억지로 결정사항 만들지 않기.",
+      "files": ["sample_3_standup.txt"]
+    }
+  ]
+}
