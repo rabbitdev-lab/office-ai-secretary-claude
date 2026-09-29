@@ -19,7 +19,7 @@
 
 책에서는 홈 폴더 안에 `obsidian` 폴더를 만들고, 그 안의 `claude-work` 폴더를 실습 공간으로 씁니다. 경로를 짧게 쓸 때는 `~/obsidian/claude-work`라고 적습니다.
 
-여기 있는 폴더들은 그 안에 들어갈 폴더와 이름이 같습니다. 압축을 푼 뒤 **지금 할 실습에 필요한 파일만** 같은 이름의 폴더에 복사하세요. 파일마다 넣는 시점이 다르니 다음의 실습별 안내를 확인하세요.
+여기 있는 폴더들은 그 안에 들어갈 폴더와 이름이 같습니다. 압축을 푼 뒤 **지금 할 실습에 필요한 파일만** 같은 이름의 폴더에 복사하세요. 파일마다 넣는 시점이 다릅니다. 「파일은 언제 넣나요」를 함께 보세요.
 
 | 여기 있는 것 | 어디에 복사하나 | 무엇이 들어 있나 |
 | --- | --- | --- |
@@ -30,11 +30,9 @@
 | `goals` `plans` `reviews` 폴더 | 같은 이름 폴더 | 뒤 실습이 다시 읽는 목표·계획·회고 |
 | `TASKS.md` | claude-work 바로 아래 | 업무 조회·계획·마감 확인·하루 마무리에 쓰는 할 일 목록 |
 
-책을 순서대로 따라 하며 이미 만든 파일이 있다면 그것을 이어서 쓰세요. 중간 실습부터 시작한다면 여기 있는 파일을 복사해 넣으면 됩니다.
-
 ## 스킬을 먼저 복사해도 되나요
 
-실습을 따라 하며 직접 만들 계획이라면 **미리 복사하지 않기를 권합니다.** 여기 있는 스킬은 실습에서 만드는 것과 이름이 같습니다. 미리 넣어 두면 클로드가 스킬을 만들 때 같은 이름의 폴더가 이미 있는 상태가 되어, 내가 만든 것과 내려받은 것이 섞이거나 한쪽이 지워집니다.
+실습을 따라 하며 직접 만들 계획이라면 **미리 복사하지 않기를 권합니다.** 여기 있는 스킬은 실습에서 만드는 것과 이름이 같습니다. 미리 넣어 두면 클로드가 스킬을 만들 때 같은 이름의 폴더를 마주칩니다. 그러면 내가 만든 것과 내려받은 것이 섞이거나 한쪽이 지워집니다.
 
 - 실습은 실습대로 진행하고, 여기 있는 파일은 **정답지**로 비교해 보세요.
 - 만드는 과정을 건너뛰고 바로 쓰고 싶은 스킬만 골라 복사해도 됩니다.
@@ -94,15 +92,15 @@
 | Chapter 03 | 01~05 | meeting-summary | `data/2026-04-15-팀회의.md` |
 | Chapter 04 | 06~10 | slack-daily-briefing, action-item-quadrant, team-daily-digest, slack-dm-reminder | `data/team-members.md`, `slack/seed-messages.md` |
 | Chapter 05 | 11~15 | email-briefing, email-draft-replies, email-extract-tasks, email-translate | 예제 파일 없음. 연결한 받은편지함을 그대로 씁니다. `data/todo.md`는 실습 중에 생깁니다 |
-| Chapter 06 | 16~20 | meeting-log, meeting-brief, action-followup | `data/2026-05-17-베타-V1-정렬-회의-스크립트.md`, `data/me.md`, 해당 실습의 `meetings/` 파일 |
-| Chapter 07 | 21~24 | (플러그인 사용) | `data/비밀유지계약서_샘플.pdf`, `data/sales-2026.csv`, `data/campaign-brief.md`, `data/feature-memo.md` |
-| Chapter 08 | 25~27 | (Superpowers 사용) | 없음 |
-| Chapter 09 | 28~30 | (오피스 추가 기능 사용) | `data/quarterly_sales_2026.xlsx` |
+| Chapter 06 | 16~20 | meeting-log, meeting-brief, action-followup | `data/2026-05-17-베타-V1-정렬-회의-스크립트.md`, `data/me.md`, 그 실습에 해당하는 `meetings` 파일 |
+| Chapter 07 | 21~24 | 없음(플러그인을 설치해 씁니다) | `data/비밀유지계약서_샘플.pdf`, `data/sales-2026.csv`, `data/campaign-brief.md`, `data/feature-memo.md` |
+| Chapter 08 | 25~27 | 없음(Superpowers를 설치해 씁니다) | 없음 |
+| Chapter 09 | 28~30 | 없음(오피스 추가 기능을 씁니다) | `data/quarterly_sales_2026.xlsx` |
 | Chapter 10 | 31~34 | notion-db-cleaner, notion-db-importer, notion-weekly-status | `data/content_ideas_emails.md`, `data/content_ideas_memo.md`, `notion/프로젝트-DB.csv`, `notion/태스크-DB.csv`, `notion/목표-DB.csv` |
 | Chapter 11 | 35~37 | obsidian-knowledge-card, obsidian-recall, weekly-work-report | 그 실습에 해당하는 `notes`·`daily`·`meetings` 파일. 실습 35의 추가 메모는 점검할 때 넣습니다 |
 | Chapter 12 | 38~41 | document-compare, document-extract | `data/report.pdf`, `data/업무위탁계약서.pdf`, `data` 폴더의 `quotes`·`resumes` |
-| Chapter 13 | 42~44 | monthly-plan | 앞 단계에서 만든 `goals/okr.md`, `TASKS.md` |
-| Chapter 14 | 45~48 | weekly-plan, weekly-capacity, deadline-check | `plans/2026-05-monthly.md`, `plans/2026-W20-weekly.md`, `TASKS.md`를 단계에 맞춰 사용 |
+| Chapter 13 | 42~44 | monthly-plan | `goals/okr.md`, `TASKS.md`. 실습 42·43에서 직접 만들지만 여기에도 들어 있습니다 |
+| Chapter 14 | 45~48 | weekly-plan, weekly-capacity, deadline-check | `plans/2026-05-monthly.md`, `plans/2026-W20-weekly.md`, `TASKS.md`를 실습 시점에 맞춰 사용 |
 | Chapter 15 | 49~51 | daily-summary, weekly-summary | `plans/2026-W20-weekly.md`, `TASKS.md`, 그 기간의 `reviews` 파일. 다시 돌릴 때는 실행하는 날짜에 맞는 계획과 기록을 씁니다 |
 
 슬랙·메일·캘린더에 쌓인 기록도 일부 실습에서 함께 씁니다. 각 서비스를 연결하고 준비하는 방법은 책에 있습니다.
@@ -111,7 +109,7 @@
 
 - 이 저장소의 인물, 회사, 메일 주소, 문서는 모두 실습을 위해 만든 가상 자료입니다.
 - 실습할 때 실제 계약서나 고객 정보처럼 민감한 파일은 쓰지 마세요.
-- 개인 정보나 회사 자료를 이곳에 올리는 일도 없어야 합니다.
+- 개인 정보나 회사 자료는 이 저장소에 올리지 마세요.
 
 ## 잘못된 곳을 발견하면
 
